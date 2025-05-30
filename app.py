@@ -8,7 +8,7 @@ import os
 import pydeck as pdk
 
 # --- API 키 로드 ---
-load_dotenv()
+#load_dotenv()
 API_KEY = st.secrets("OPENWEATHER_API_KEY")
 
 def get_today_weather(city):

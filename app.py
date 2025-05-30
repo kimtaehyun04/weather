@@ -9,7 +9,7 @@ import pydeck as pdk
 
 # --- API 키 로드 ---
 #load_dotenv()
-API_KEY = st.secrets("OPENWEATHER_API_KEY")
+API_KEY = st.secrets["OPENWEATHER_API_KEY"]
 
 def get_today_weather(city):
     url = f"http://api.openweathermap.org/data/2.5/forecast?q={city}&appid={API_KEY}&units=metric&lang=kr"

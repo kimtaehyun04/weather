@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 from datetime import datetime
 from collections import Counter
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import os
 import pydeck as pdk
 
